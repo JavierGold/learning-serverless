@@ -2,8 +2,6 @@
 const { v4 } = require("uuid");
 const AWS = require("aws-sdk");
 
-
-
 const addTask = async (event) => {
   const dynamodb = new AWS.DynamoDB.DocumentClient();
 
